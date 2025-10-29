@@ -1,0 +1,9 @@
+# Virtual Environment
+venv/
+# Vector Database Storage (large and recreatable)
+chroma_store/
+# PDF Data (often too large/sensitive to upload)
+data/
+# Security (NEVER commit your API Key)
+.env
+*.pyc
